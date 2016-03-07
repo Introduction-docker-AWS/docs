@@ -3,9 +3,7 @@
 ## Building your own image
 Please refer [Build your own image](https://docs.docker.com/mac/step_four/) for more reference.
 
-The below steps only provide instructions for creating docker images.
-
-### Dockerfile
+The below steps only provide instructions for creating and building docker images.
 
 ### Build image using docker file
 The `docker build -t ng2-book-finder .` command takes the `Dockerfile` in the current directory, and builds an image called `ng2-book-finder` on your local machine.
