@@ -1,4 +1,11 @@
 # Docker Images
+This document describes how to manage docker image. 
+ - Create docker image for [ng2-book-finder](https://github.com/introduction-angular2/ng2-book-finder)
+ - Push the docker image to [docker hub](https://hub.docker.com/).
+
+## Pre-requisite
+1. Clone the github repository [`ng2-book-finder`](https://github.com/introduction-angular2/ng2-book-finder). 
+2. Create account in `docker-hub`.
 
 ## Building your own image
 Please refer [Build your own image](https://docs.docker.com/mac/step_four/) for more reference.
