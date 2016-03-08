@@ -26,7 +26,7 @@ The `docker build -t ng2-book-finder .` command takes the `Dockerfile` in the cu
 First Docker checks to make sure it has everything it needs to build.
 
 ```
-ng2-book-finder (feature/docker-image) $ docker build -t ng2-book-finder .
+$ docker build -t ng2-book-finder .
 Sending build context to Docker daemon   214 kB
 ```
 
@@ -96,7 +96,7 @@ Type `docker images` and press RETURN.
 This command, lists the images you have locally.
 
 ```
-ng2-book-finder (feature/docker-image) $ docker images
+$ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 ng2-book-finder     latest              3e957e2c6985        30 seconds ago      356.1 MB
 node                4.2-slim            264411d7f3f9        5 weeks ago         205.4 MB
